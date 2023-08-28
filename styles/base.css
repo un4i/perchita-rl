@@ -76,6 +76,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 30px;
     
     width: 100%;
     max-width: 1500px;
@@ -88,15 +89,15 @@ body {
 }
 
 .ranks-wrapper .ranks-content .ranks .rank-1 img {
-    height: 25px;
+    height: 40px;
 }
 
 .ranks-wrapper .ranks-content .ranks .rank-2 img {
-    height: 50px;
+    height: 40px;
 }
 
 .ranks-wrapper .ranks-content .ranks .rank-3 img {
-    height: 75px;
+    height: 60px;
 }
 
 /* itv-clan */
