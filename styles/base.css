@@ -74,30 +74,153 @@ body {
 
 .ranks-wrapper .ranks-content {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 30px;
     
     width: 100%;
     max-width: 1500px;
+}
+
+.ranks-wrapper .ranks-content h1 {
+    font-family: 'Kaushan Script', cursive;
+
+    color: rgba(182, 181, 181, 0.384);
 }
 
 .ranks-wrapper .ranks-content .ranks {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 30px;
 }
 
-.ranks-wrapper .ranks-content .ranks .rank-1 img {
+.ranks-wrapper .ranks-content .ranks .rank {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ranks-wrapper .ranks-content .ranks .rank .bronze-1 img {
+   height: 40px; 
+}
+
+.ranks-wrapper .ranks-content .ranks .rank .bronze-2 img {
+    padding-right: 5px;
+
+    height: 50px;
+}
+
+.ranks-wrapper .ranks-content .ranks .rank .bronze-3 img {
+    height: 45px;
+}
+
+.ranks-wrapper .ranks-content .ranks .rank .silver-1 img {
+    padding-right: 10px;
+
+    height: 30px;
+}
+
+.ranks-wrapper .ranks-content .ranks .rank .silver-2 img {
+    padding-right: 10px;
+
+    height: 30px;
+}
+
+.ranks-wrapper .ranks-content .ranks .rank .silver-3 img {
+    height: 45px;
+}
+
+.ranks-wrapper .ranks-content .ranks .rank .gold-1 img {
+    padding-right: 10px;
+
+    height: 30px;
+}
+
+.ranks-wrapper .ranks-content .ranks .rank .gold-2 img {
+    padding-right: 10px;
+
+    height: 35px;
+}
+
+.ranks-wrapper .ranks-content .ranks .rank .gold-3 img {
+    height: 50px;
+}
+
+.ranks-wrapper .ranks-content .ranks .rank .platinum-1 img {
+    padding-right: 10px;
+
+    height: 30px;
+}
+
+.ranks-wrapper .ranks-content .ranks .rank .platinum-2 img {
+    padding-right: 10px;
+
+    height: 45px;
+}
+
+.ranks-wrapper .ranks-content .ranks .rank .platinum-3 img {
+    height: 45px;
+}
+
+.ranks-wrapper .ranks-content .ranks .rank .diamond-1 img {
     height: 40px;
 }
 
-.ranks-wrapper .ranks-content .ranks .rank-2 img {
-    height: 40px;
+.ranks-wrapper .ranks-content .ranks .rank .diamond-2 img {
+    height: 50px;
 }
 
-.ranks-wrapper .ranks-content .ranks .rank-3 img {
-    height: 60px;
+.ranks-wrapper .ranks-content .ranks .rank .diamond-3 img {
+    height: 65px;
+}
+
+.ranks-wrapper .ranks-content .ranks .rank .champion-1 img {
+    padding-right: 10px;
+
+    height: 30px;
+}
+
+.ranks-wrapper .ranks-content .ranks .rank .champion-2 img {
+    padding-right: 10px;
+
+    height: 40px;
+
+    opacity: 0.2;
+}
+
+.ranks-wrapper .ranks-content .ranks .rank .champion-3 img {
+    height: 55px;
+
+    opacity: 0.2;
+}
+
+.ranks-wrapper .ranks-content .ranks .rank .gc-1 img {
+    padding-right: 10px;
+
+    height: 40px;
+
+    opacity: 0.2;
+}
+
+.ranks-wrapper .ranks-content .ranks .rank .gc-2 img {
+    padding-right: 10px;
+
+    height: 50px;
+
+    opacity: 0.2;
+}
+
+.ranks-wrapper .ranks-content .ranks .rank .gc-3 img {
+    height: 50px;
+
+    opacity: 0.2;
+}
+
+.ranks-wrapper .ranks-content .ranks .rank .ssl img {
+    height: 70px;
+
+    opacity: 0.2;
 }
 
 /* itv-clan */
