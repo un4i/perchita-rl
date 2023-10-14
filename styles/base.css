@@ -223,6 +223,41 @@ body {
     opacity: 0.2;
 }
 
+/* PRESENTATION VIDEO */
+
+.presentation-video-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+}
+
+.presentation-video-wrapper .presentation-video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    padding-top: 50px;
+
+    width: 100%;
+    max-width: 1500px;
+}
+
+.presentation-video-wrapper .presentation-video h1 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 2.5rem;
+
+    color: rgb(108, 233, 255);
+    text-shadow: rgb(183, 0, 255) 2px 2px;
+}
+
+.presentation-video-wrapper .presentation-video video {
+    width: 60%;
+}
+
 /* itv-clan */
 
 .headboard {
